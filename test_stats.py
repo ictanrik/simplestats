@@ -10,5 +10,9 @@ def test_empty_list():
 test_empty_list()
 
 
+def test_float_mean():
+	assert mean([0.2,0.5,1.1]) == 0.6
+test_float_mean()
+
 exit()
 

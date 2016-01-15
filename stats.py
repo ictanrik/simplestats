@@ -6,16 +6,12 @@ def mean(vals):
 		return 0.0
 	return sum(vals)/len(vals)
 
-def test_mean():
-	assert mean([2,4]) == 3.0
-test_mean()
 
-def test_empty_list():
-	assert mean([]) == 0.0
-test_empty_list()
 
-print(mean( [2,4,5,7] ) )
-#print(mean( "blah" ))
+if __name__ == '__main__':
+	print(mean( [2,4,5,7] ) )
+	#print(mean( "blah" ))
 
 
 exit()
+
